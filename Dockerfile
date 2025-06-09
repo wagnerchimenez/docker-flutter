@@ -10,3 +10,7 @@ RUN git clone https://github.com/flutter/flutter.git /usr/local/flutter
 ENV PATH="/usr/local/flutter/bin:${PATH}"
 
 RUN flutter doctor
+
+WORKDIR /projects
+
+EXPOSE 80
