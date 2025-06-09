@@ -2,3 +2,6 @@ services:
 
   flutter:
     build: .
+    tty: true
+    volumes:
+      - ./projects:/projects
